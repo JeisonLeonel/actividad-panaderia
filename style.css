@@ -1,0 +1,12 @@
+#main .carousel-inner{
+    max-height: 90vh;
+    object-fit: cover;
+}
+#header {
+   background-color:#ad7044 ; 
+}
+#header img {
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+}
