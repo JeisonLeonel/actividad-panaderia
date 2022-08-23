@@ -70,6 +70,10 @@
           </div>
     </section>
 
+    
+
+    <!-- Catalogo -->
+
     <section id="catalogo" class="mt-4">
       <div class="container">
         <div class="row">
@@ -81,43 +85,53 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card  w-100 h-100">
-              <a href="vista/producto1.html" title="Ver producto"><img class="card-img-top w-100 h-100" src="assets/catalogo/pan-cereal.jpg" alt="pan-cereal"></a>
-              <div class="card-body">
-                <h5 class="card-title">Pan Cereal</h5>
-                <p class="card-text">Pan elaborado cereales,semillas y granos</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card  w-100 h-100">
-              <img class="card-img-top  w-100 h-100" data-toggle="modal" data-target="#exampleModal" src="assets/catalogo/pan-italiano.jpg" alt="pan italiano">
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card  w-100 h-100">
-              <img class="card-img-top  w-100 h-100" src="assets/catalogo/pan-frances.jpg" alt="pan-frances">
-              <div class="card-body">
-                <h5 class="card-title">Pan frances</h5>
-                <p class="card-text">Pan elaborado con resetas francesas </p>
-              </div>
+              <img class="card-img-top w-100 h-100" data-toggle="modal" data-target="#pancereal" src="assets/catalogo/pan-cereal.jpg" alt="pan-cereal">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card w-100 h-100">
-              <img class="card-img-top  w-100 h-100" src="assets/catalogo/pan-maiz.jpg" alt="pan-maiz">
-
-              <div class="card-body">
-                <h5 class="card-title">Pan maiz</h5>
-                <p class="card-text">Pan elaborado con maiz</p>
-              </div>
+              <img class="card-img-top  w-100 h-100" data-toggle="modal" data-target="#panitaliano" src="assets/catalogo/pan-italiano.jpg" alt="pan-italiano">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100 h-100">
+              <img class="card-img-top w-100 h-100" data-toggle="modal" data-target="#churro" src="assets/catalogo/churros.jpg" alt="churros">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100 h-100">
+              <img class="card-img-top w-100 h-100"  data-toggle="modal" data-target="#panmaiz" src="assets/catalogo/pan-maiz.jpg" alt="pan-maiz">
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100 h-100">
+              <img class="card-img-top w-100 h-100" data-toggle="modal" data-target="#baguette" src="assets/catalogo/baguette.jpg" alt="pan-baguette">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100 h-100">
+              <img class="card-img-top  w-100 h-100" data-toggle="modal" data-target="#pan-manteca" src="assets/catalogo/pan-manteca.jpg" alt="pan-manteca">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100">
+              <img class="card-img-top w-100" data-toggle="modal" data-target="#oreja-dulce" src="assets/catalogo/orejas-dulces.jpg" alt="orejas-dulces">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card w-100 h-100">
+              <img class="card-img-top  w-100 h-100" data-toggle="modal" data-target="#dona" src="assets/catalogo/donas.jpg" alt="donas">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-   <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- /Catalogo -->
+
+   <!-- Modal panitaliano -->
+<div class="modal fade" id="panitaliano" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -127,16 +141,187 @@
         </button>
       </div>
       <div class="modal-body">
-        <img class="w-100 h-100" src="assets/catalogo/pan-italiano.jpg" alt="">
-        <p class="modal-text mt-3 text-center ">Pan elaborado con resetas italinas</p>
-        
+        <img class="w-100 h-100" src="assets/catalogo/pan-italiano.jpg" alt="pan-italiano">
       </div>
       <div class="modal-footer">
+       <a href="vista/producto2.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
 </div>
+<!-- /modal -->
+
+<!-- ModalPanCereal-->
+
+<div class="modal fade" id="pancereal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pan Cereal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/pan-cereal.jpg" alt="pan-cereal">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto1.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+<!-- ModalChurros-->
+
+<div class="modal fade" id="churro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Churros</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/churros.jpg" alt="pan-frances">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto3.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+<!-- ModalPanMaiz-->
+
+<div class="modal fade" id="panmaiz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pan de Maíz</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/pan-maiz.jpg" alt="pan-maiz">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto4.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+<!-- ModalBaguette-->
+
+<div class="modal fade" id="baguette" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Baguette</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/baguette.jpg" alt="baguette">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto5.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+<!-- ModalPanManteca-->
+
+<div class="modal fade" id="pan-manteca" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pan de Manteca</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/pan-manteca.jpg" alt="pan-manteca">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto6.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+<!-- ModalOrejasDulce-->
+
+<div class="modal fade" id="oreja-dulce" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pan de Manteca</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/orejas-dulces.jpg" alt="pan-manteca">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto7.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+
+<!-- ModalDonas-->
+
+<div class="modal fade" id="dona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Donas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="assets/catalogo/donas.jpg" alt="donas">
+      </div>
+      <div class="modal-footer">
+       <a href="vista/producto8.html"><button type="button" class="btn btn-primary">Ver mas</button></a> 
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/Modal -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
